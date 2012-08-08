@@ -1,0 +1,5 @@
+= TimezoneDetection
+
+This project rocks and uses MIT-LICENSE.
+
+More description will be available soon.
