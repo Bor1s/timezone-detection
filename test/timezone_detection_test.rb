@@ -23,6 +23,12 @@ class TimezoneDetectionTest < ActiveSupport::TestCase
     assert_equal 3, ip_info.get_timezone_offset(ip)
   end
 
+	test "timezone lookup by local IP" do
+    ip = "127.0.0.1"
+    ip_info = TimezoneDetection::IpInfoDB.new
+    assert_equal Time.new.utc_offset / 60 / 60, ip_info.get_timezone_offset(ip)
+  end
+
   test "ip_timezone record creation" do
     ip = "78.137.57.74"
     TimezoneDetection::IpTimezone.destroy_all
