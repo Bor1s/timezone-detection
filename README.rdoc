@@ -6,7 +6,7 @@ This gem used for setting client's timezone based on his/her IP.
 	
 Write it in your Gemfile
 
-	gem "timezone_detection", '~> 0.0.3'
+	gem "timezone_detection", '~> 0.0.4'
 
 Next, execute following sequences of commands:
 
