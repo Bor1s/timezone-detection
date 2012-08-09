@@ -11,12 +11,8 @@ Gem::Specification.new do |s|
   s.email       = ["boris.bbk@gmail.com"]
   s.homepage    = "https://github.com/Bor1s/timezone-detection"
   s.summary     = "Gem for detecting users timezone by IP address."
-  s.description = "Gem for detecting users timezone by IP address."
+  s.description = "Visit #{s.homepage} for more information."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
-
-  #s.add_development_dependency "rails", "~> 3.2.7"
-  # s.add_dependency "jquery-rails"
-  #s.add_development_dependency "sqlite3"
 end
