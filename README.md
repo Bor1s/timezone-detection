@@ -14,9 +14,9 @@ Next, execute following sequences of commands:
 	
 	rake db:migrate
 
-This gem uses IpInfoDb web service to determine your timezone. API KEY required for dealing with site API, so you should register your own and set it in initializer file (for this visit http://ipinfodb.com/):
+This gem uses IpInfoDb web service to determine your timezone. API KEY required for dealing with site API, so you should register your own and set it in initializer file ( for this visit http://ipinfodb.com/ ):
 
-	config/initializers/my_own_timezone_initializer.rb
+For example: *config/initializers/my_own_timezone_initializer.rb*
 
 	TimezoneDetection.config do |cnf|
 		cnf.api_key = "SOME_API_KEY_PROVIDED_FROM_IP_INFO_DB_SITE"
@@ -24,8 +24,8 @@ This gem uses IpInfoDb web service to determine your timezone. API KEY required 
 	
 # USAGE
 
-Set before_filter
-> before_filter :set_timezone
-in your ApplicationController or wherever you need.
+Set before_filter in your ApplicationController or wherever you need.
+
+	before_filter :set_timezone
 
 That's it. You are ready to go!
