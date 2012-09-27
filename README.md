@@ -42,3 +42,7 @@ That's it. You are ready to go!
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Tests
+
+See staging branch for relevant rspec tests.
