@@ -20,7 +20,7 @@ Or install it yourself as:
 
 	$ rails generate timezone_detection:install
 	$	rake db:migrate
-	
+
 This gem uses IpInfoDb web service to determine your timezone. API KEY required for dealing with site API, so you should register your own and set it in initializer file ( for this visit http://ipinfodb.com/ ):
 
 For example: *config/initializers/my_own_timezone_initializer.rb*
